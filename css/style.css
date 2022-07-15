@@ -117,7 +117,14 @@ header {
 }
 
 .number-1 {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vertical-line {
+  height: 14rem;
+  border-left: 1px solid var(--border-clr);
 }
 
 .number-first {
@@ -131,8 +138,6 @@ header {
 
   width: 5.6rem;
   height: 5.6rem;
-
-  /* padding: ; */
 }
 /* IMAGES SECTION */
 

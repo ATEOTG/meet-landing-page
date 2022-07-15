@@ -125,7 +125,7 @@ header {
 }
 
 .vertical-line {
-  height: 14rem;
+  height: 8rem;
   border-left: 1px solid var(--border-clr);
 }
 
@@ -207,6 +207,7 @@ header {
     url("../assets/desktop/image-footer.jpg");
 
   height: 30.8rem;
+  position: relative;
 }
 
 .footer-secondary {
@@ -236,4 +237,10 @@ header {
 
 .version-footer-text {
   color: #d9b8ff;
+}
+
+.number-pos {
+  position: absolute;
+  top: 0;
+  transform: translate(0, -80%);
 }

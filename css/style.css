@@ -44,7 +44,8 @@ header {
 .section-intro {
   display: grid;
   grid-template-columns: 30fr 40fr 30fr;
-  gap: 3rem;
+  column-gap: 3rem;
+  row-gap: 12rem;
   overflow: hidden;
 }
 

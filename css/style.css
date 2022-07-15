@@ -47,6 +47,7 @@ header {
   column-gap: 3rem;
   row-gap: 12rem;
   overflow: hidden;
+  margin-bottom: 5rem;
 }
 
 .intro-text {

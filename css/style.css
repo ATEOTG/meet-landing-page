@@ -1,0 +1,22 @@
+/* 
+*/
+
+:root {
+  --head-clr: #28283d;
+  --par-clr: #87879d;
+  --bg-clr: #fafafa;
+  --btn-cl-blu: #4d96a9;
+  --btn-cl-blu-hv: #8fe3f9;
+  --btn-cl-pr: #855fb1;
+  --btn-cl-pr-hv: #d988ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}

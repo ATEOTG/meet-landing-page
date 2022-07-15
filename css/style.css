@@ -3,9 +3,10 @@
   --par-clr: #87879d;
   --bg-clr: #fafafa;
   --btn-cl-blu: #4d96a9;
-  --btn-cl-blu-hv: #8fe3f9;
+  --blue-text: #8fe3f9;
+  --btn-cl-blue-hv1: #71c0d4;
   --btn-cl-pr: #855fb1;
-  --btn-cl-pr-hv: #d988ff;
+  --btn-cl-pr-hv: #b18bdd;
 }
 
 * {
@@ -71,7 +72,6 @@ header {
   display: flex;
   justify-content: center;
   gap: 1.6rem;
-  border-radius: 2.9rem;
 }
 
 .btn-dwn-intro,
@@ -79,16 +79,31 @@ header {
   font-size: 1.6rem;
   font-weight: 700;
   padding: 1.6rem 3.2rem;
+  border-radius: 2.9rem;
+  border: none;
 }
 
 .btn-dwn-intro {
   background-color: var(--btn-cl-blu);
   color: var(--bg-clr);
 }
+.btn-dwn-intro:hover {
+  background-color: var(--btn-cl-blue-hv1);
+  cursor: pointer;
+}
+
+.version-text {
+  color: var(--blue-text);
+}
 
 .btn-desc {
   background-color: var(--btn-cl-pr);
   color: var(--bg-clr);
+}
+
+.btn-desc:hover {
+  background-color: var(--btn-cl-pr-hv);
+  cursor: pointer;
 }
 .intro-img {
 }

@@ -142,6 +142,22 @@ header {
   height: 5.6rem;
 }
 /* IMAGES SECTION */
+.section-imgs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.section-imgs img {
+  width: 25.5rem;
+  height: 24.2rem;
+  border-radius: 0.8rem;
+  margin-right: 3rem;
+}
+
+.section-imgs img:last-child {
+  margin-right: 0;
+}
 
 /* DESCRIPTION SECTION */
 

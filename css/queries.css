@@ -6,6 +6,8 @@
         rgba(77, 151, 169, 0.856)
       ),
       url("../assets/desktop/image-footer.jpg");
+    background-size: cover;
+    background-position: center;
   }
 }
 
@@ -45,4 +47,12 @@
     width: 100%;
     text-align: center;
   }
+}
+
+/* 375px */
+@media (max-width: 24em) {
+  html {
+    font-size: 50%;
+  }
+  /* INTRO SEC */
 }

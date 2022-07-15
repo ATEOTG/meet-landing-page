@@ -35,13 +35,76 @@ header {
 
 .icon {
   margin-top: 2.8rem;
+  margin-bottom: 6.1rem;
 }
 
 /* INTRO SECTION */
 .section-intro {
-  display: flex;
+  display: grid;
+  grid-template-columns: 30fr 40fr 30fr;
+  gap: 3rem;
+  overflow: hidden;
 }
 
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.intro-heading {
+  color: var(--head-clr);
+  text-align: center;
+  font-size: 6.4rem;
+  line-height: 1.1;
+  width: 75%;
+  align-self: center;
+}
+
+.intro-par {
+  text-align: center;
+  color: var(--par-clr);
+  font-size: 1.8rem;
+}
+
+.intro-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+  border-radius: 2.9rem;
+}
+
+.btn-dwn-intro,
+.btn-desc {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1.6rem 3.2rem;
+}
+
+.btn-dwn-intro {
+  background-color: var(--btn-cl-blu);
+  color: var(--bg-clr);
+}
+
+.btn-desc {
+  background-color: var(--btn-cl-pr);
+  color: var(--bg-clr);
+}
+.intro-img {
+}
+
+.img-right {
+  align-self: center;
+  justify-self: center;
+}
+
+.img-left {
+  justify-self: center;
+}
+
+.number-first {
+  text-align: center;
+}
 /* IMAGES SECTION */
 
 /* DESCRIPTION SECTION */
